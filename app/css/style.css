@@ -1,0 +1,58 @@
+body
+{
+   background-color: rgb(7, 87, 2);
+   font-family: "Lucida Console", Monospace;
+}
+
+#border
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 408px;
+
+  background-color: rgb(126, 6, 3);
+  border: 48px solid transparent;
+  border-image: url("../img/border.png") 32 round;
+  border-image-repeat: repeat;
+}
+
+#reset-button
+{
+  font-family: "Lucida Console", Monospace;
+  margin-left: 8px;;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#turn-field
+{
+  font-weight: bold;
+  font-size: 14pt;
+  margin-right: 8px;
+  float: right;
+}
+
+.turn-field-white
+{
+  color: white;
+
+}
+
+.turn-field-black
+{
+  color: black;
+}
+
+canvas
+{
+  display:block;
+  margin: 0;
+
+  image-rendering: optimizeSpeed;             /* Older versions of FF          */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+  image-rendering: -webkit-optimize-contrast; /* Safari                        */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers       */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+}
