@@ -9,12 +9,11 @@ body
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 408px;
+  width: 396px;
 
-  background-color: rgb(126, 6, 3);
-  border: 48px solid transparent;
-  border-image: url("../img/border.png") 32 round;
-  border-image-repeat: repeat;
+  background-color: rgb(90, 90, 90);
+  border: 3px solid black;
+  padding: 16px;
 }
 
 #reset-button

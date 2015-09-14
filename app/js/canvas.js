@@ -15,10 +15,10 @@ document.addEventListener("mousemove", Game_MouseMove, false);
 
 
 var g_scale = 3.0;
-var g_width = 408;
-var g_height = 408;
-var g_ox = 4;
-var g_oy = 4;
+var g_width = 396;
+var g_height = 396;
+var g_ox = 2;
+var g_oy = 2;
 
 var Team = {
     white: 0,
@@ -567,7 +567,7 @@ function Game_CalculateMoves() {
 
 
 function Game_ClearCanvas() {
-    g_ctx.fillStyle = '#7E0603';
+    g_ctx.fillStyle = '#000000';
 
     g_ctx.beginPath();
     g_ctx.rect(0, 0, g_width, g_height);
