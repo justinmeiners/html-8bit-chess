@@ -1,4 +1,4 @@
-Employment Tracker
+Html 8-bit Chess
 ===============
 
 ### About ###
